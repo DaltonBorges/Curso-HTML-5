@@ -1,13 +1,23 @@
 @charset "utf8";
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color: rgb(224, 224, 224);
     color: black;
 }
 
 p {
     text-align: justify;
     text-indent: 30px;
+}
+
+header#cabecalho {
+    background-color: blueviolet;
+}
+
+img#icone {
+    position: absolute;
+    left: 750px;
+    top: 40px;
 }
 
 /* formatando imagens com legendas */
@@ -75,7 +85,18 @@ nav#menu a {
     color: black;
     text-decoration: none;
 }
-nav#menu a:hover{
+
+nav#menu a:hover {
     color: white;
     text-decoration: underline;
+}
+
+/* Formatação da Interface */
+
+#interface {
+    width: 900px;
+    background-color: white;
+    margin: -10px auto 10px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
