@@ -10,14 +10,35 @@ p {
     text-indent: 30px;
 }
 
+/* Formatação do cabeçalho */
+
 header#cabecalho {
-    background-color: blueviolet;
+    background-image: url("../_imagens/glass-logo-peq.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    height: 150px;
+    border-bottom: 1px #505050 solid;
+}
+
+header#cabecalho h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30pt;
+    color: #505050;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+header#cabecalho h2 {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #888888;
+    margin-top: 0px;
 }
 
 img#icone {
     position: absolute;
     left: 750px;
-    top: 40px;
+    top: 70px;
 }
 
 /* formatando imagens com legendas */
