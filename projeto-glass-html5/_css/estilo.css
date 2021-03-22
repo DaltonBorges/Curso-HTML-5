@@ -1,5 +1,6 @@
 @charset "utf8";
 body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
     color: black;
 }
