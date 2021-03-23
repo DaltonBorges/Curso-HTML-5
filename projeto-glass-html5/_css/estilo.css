@@ -136,9 +136,38 @@ table#tabelaspec {
     text-align: left;
 }
 
+table#tabelaspec caption {
+    color: #888888;
+    font-style: 20pt;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+table#tabelaspec caption span {
+    display: block;
+    float: right;
+    font-size: 8pt;
+    margin-top: 10px;
+}
+
 table#tabelaspec td {
     border: 1px #808080 solid;
     padding: 10px;
+    vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+    background-color: #555555;
+    color: white;
+    vertical-align: top;
+    font-weight: bold;
+    text-align: right;
+}
+
+table#tabelaspec td.cd {
+    background-color: #cecece;
+    color: black;
+    text-align: left;
 }
 
 aside#lateral {
@@ -151,6 +180,7 @@ footer#rodape {
     clear: both;
     border-top: 1px #808080 solid;
 }
+
 footer#rodape p {
     text-align: center;
 }
