@@ -118,10 +118,34 @@ nav#menu a:hover {
     text-decoration: underline;
 }
 
+/* Formatação das seções */
+
+section#corpo {
+    display: block;
+    width: 570px;
+    float: left;
+    border-right: 1px rgb(80, 80, 80) solid;
+    padding: 10px;
+}
+
+aside#lateral {
+    display: block;
+    width: 400px;
+    float: right;
+}
+
+footer#rodape {
+    clear: both;
+    border-top: 1px #808080 solid;
+}
+footer#rodape p {
+    text-align: center;
+}
+
 /* Formatação da Interface */
 
 #interface {
-    width: 900px;
+    width: 1000px;
     background-color: white;
     margin: -10px auto 10px auto;
     padding: 10px;
